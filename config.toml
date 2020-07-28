@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Passing Thoughts From Alex"
+theme="anatole"
+
+[params]
+description = "Passing commentary on the peanut gallery"
+profilePicture = "images/profile.png"
+
+[menu]
+	[[menu.main]]
+	name = "Home"
+	identifier = "home"
+	weight = 100
+	url = "/"
+	
+	[[menu.main]]
+	name = "Posts"
+	weight = 200
+	identifier = "posts"
+	url = "/posts"
